@@ -4,19 +4,19 @@ import io
 
 def test_tree_image_generation():
     tree = {
-        0: (1,2),
-        1: (3,4),
-        2: (5,6),
+        '_0': (1, 2),
+        1: (3, 4),
+        2: (5, 6),
     }
     ll = 3
     rr = 5
     for i in range(5):
-      tree[ll] = (f'a{i}',f'b{i}')
-      ll = f'b{i}'
-      tree[rr] = (f'c{i}',f'd{i}')
-      rr = f'd{i}'
+        tree[ll] = (f'a{i}', f'_b{i}')
+        ll = f'_b{i}'
+        tree[rr] = (f'c{i}', f'd{i}')
+        rr = f'd{i}'
 
-    graph = construct_tree_graph(tree,0)
+    graph = construct_tree_graph(tree, '_0')
 
     png_bytes = graph.pipe(format='png')
     image = PIL.Image.open(io.BytesIO(png_bytes))
