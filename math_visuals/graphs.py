@@ -1,13 +1,13 @@
 from graphviz import Digraph
 
 
-def construct_tree_graph(tree, root):
+def construct_tree_graph(tree, root, radius: float = 0.5):
     graph = Digraph('Tree', engine='neato')
 
     def draw_from_level(root, x, y, v_dist):
         label = str(root)
         graph.node(label, label='' if label.startswith('_') else label,
-                   shape='circle', fixedsize='true', pos=f'{x},{y}!', width='0.5')
+                   shape='circle', fixedsize='true', pos=f'{x},{y}!', width=f'{radius}')
 
         if root in tree:
             left, right = tree[root]

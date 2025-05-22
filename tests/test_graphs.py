@@ -1,6 +1,7 @@
 from math_visuals.graphs import construct_tree_graph
 import PIL.Image
 import io
+import pytest
 
 def test_tree_image_generation():
     tree = {
@@ -10,7 +11,7 @@ def test_tree_image_generation():
     }
     ll = 3
     rr = 5
-    for i in range(5):
+    for i in range(3):
         tree[ll] = (f'a{i}', f'_b{i}')
         ll = f'_b{i}'
         tree[rr] = (f'c{i}', f'd{i}')

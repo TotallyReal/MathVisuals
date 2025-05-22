@@ -4,24 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37880db0-b5a4-438d-ba86-922811b29282" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/MathVisuals.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/math_visuals/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/math_visuals/graphs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/math_visuals/latex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_graphs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_latex.py" afterDir="false" />
+    <list default="true" id="37880db0-b5a4-438d-ba86-922811b29282" name="Changes" comment="Trees don't have to be full">
+      <change afterPath="$PROJECT_DIR$/math_visuals/continued_fractions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_continued_fractions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MathVisuals.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MathVisuals.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math_visuals/graphs.py" beforeDir="false" afterPath="$PROJECT_DIR$/math_visuals/graphs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math_visuals/latex.py" beforeDir="false" afterPath="$PROJECT_DIR$/math_visuals/latex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_graphs.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_graphs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_latex.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_latex.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +31,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;TotallyReal&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/TotallyReal/MathVisuals.git&quot;,
+    &quot;accountId&quot;: &quot;2007cccf-045d-40bd-a553-533d5f040c25&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -49,17 +54,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_continued_fractions.test_func_of_n.executor": "Run",
+    "Python tests.Python tests for test_continued_fractions.test_only_numbers.executor": "Run",
     "Python tests.Python tests for test_graphs.test_tree_image_generation.executor": "Run",
     "Python tests.Python tests for test_latex.test_matrix.executor": "Run",
+    "Python tests.Python tests in test_continued_fractions.py.executor": "Run",
     "Python.graphs.executor": "Run",
     "Python.latex.executor": "Run",
     "Python.main.executor": "Run",
     "Python.setup.executor": "Run",
+    "Python.temp.executor": "Run",
     "Python.test_graphs.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Python"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -67,7 +77,7 @@
       <recent name="C:\Users\eofir\PycharmProjects\MathVisuals\math_visuals" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_latex.test_matrix">
+  <component name="RunManager" selected="Python.latex">
     <configuration name="latex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MathVisuals" />
       <option name="ENV_FILES" value="" />
@@ -90,51 +100,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="setup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MathVisuals" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/setup.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_graphs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MathVisuals" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_graphs.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_graphs.test_tree_image_generation" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_continued_fractions.test_func_of_n" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="MathVisuals" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,7 +111,22 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_graphs.test_tree_image_generation&quot;" />
+      <option name="_new_target" value="&quot;test_continued_fractions.test_func_of_n&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_continued_fractions.test_only_numbers" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="MathVisuals" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_continued_fractions.test_only_numbers&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -164,20 +145,35 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_continued_fractions.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="MathVisuals" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_continued_fractions.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_latex.test_matrix" />
         <item itemvalue="Python.latex" />
-        <item itemvalue="Python.setup" />
-        <item itemvalue="Python tests.Python tests for test_graphs.test_tree_image_generation" />
-        <item itemvalue="Python.test_graphs" />
+        <item itemvalue="Python tests.Python tests for test_latex.test_matrix" />
+        <item itemvalue="Python tests.Python tests for test_continued_fractions.test_func_of_n" />
+        <item itemvalue="Python tests.Python tests for test_continued_fractions.test_only_numbers" />
+        <item itemvalue="Python tests.Python tests in test_continued_fractions.py" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-1b1018131e27-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.180" />
+        <option value="bundled-python-sdk-4f4e415b4190-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.26053.29" />
       </set>
     </attachedChunks>
   </component>
@@ -190,7 +186,40 @@
       <option name="presentableId" value="Default" />
       <updated>1738439003939</updated>
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1738443149515</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738443149515</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Trees don't have to be full">
+      <option name="closed" value="true" />
+      <created>1739371191738</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739371191738</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <MESSAGE value="Trees don't have to be full" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trees don't have to be full" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -199,6 +228,11 @@
           <url>file://$PROJECT_DIR$/math_visuals/__init__.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_graphs.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
