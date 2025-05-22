@@ -17,7 +17,7 @@ Draw binary trees in a "compact" way. See the `tests\test_graphs.py` for example
 
 Was a great tool in my [notes about Huffman codes](https://drive.google.com/file/d/14iJaLgw66eKPS27O2w4_szyeTwQTGn7U/view?usp=sharing).
 
-![binary tree example](images/binary tree example.PNG)
+![binary tree example](images/binary_tree_example.PNG)
 
 ## Matrices and vector lists from arrays
 Use 2D arrays to form either matrices of lists of vectors. Was useful in [my notes about
